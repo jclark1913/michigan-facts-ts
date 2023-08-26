@@ -1,7 +1,7 @@
 "use strict";
 
-const app = require("./app");
-const { PORT } = require(".src/config/config");
+import app from "./app";
+import { PORT } from "./config/config";
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
