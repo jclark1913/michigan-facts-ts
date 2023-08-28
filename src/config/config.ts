@@ -13,7 +13,7 @@ const SECRET_KEY = process.env.SECRET_KEY || "secret-dev";
 
 export const PORT = process.env.PORT ? +process.env.PORT : 3001;
 
-function getDatabaseUri(): string {
+export function getDatabaseUri(): string {
   return (process.env.NODE_ENV === "test")
     ? "michigan_test"
     : process.env.DATABASE_URL || "michigan_facts";
