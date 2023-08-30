@@ -14,18 +14,14 @@ model User {
   id       Int      @id @default(autoincrement())
   username String   @unique
   password String
-}
 
-model Category {
-  id         Int      @id @default(autoincrement())
-  name        String  @unique
-  description String?
-  posts       Fact[]
+  @@map("users")
 }
 
 model Fact {
   id         Int      @id @default(autoincrement())
-  categoryId Int
-  info      String
-  category  Category @relation(fields: [categoryId], references: [id])
+  content    String
+  category   String
+
+  @@map("facts")
 }
