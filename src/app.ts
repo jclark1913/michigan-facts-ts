@@ -11,6 +11,10 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("tiny"));
 
+import factRoutes from "./routes/facts";
+
+app.use("/facts", factRoutes);
+
 export default app;
 
 // /** Handle 404 errors -- this matches everything */
