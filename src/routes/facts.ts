@@ -25,7 +25,7 @@ router.get("/", async function (req, res, next) {
     where: { id: randomFactId },
   })
 
-  return res.json({ randomFact });
+  return res.json({ fact: randomFact?.content });
 })
 
 export default router;
