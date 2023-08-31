@@ -1,5 +1,3 @@
-"use strict";
-
 /** Routes for facts */
 
 import express, { Router } from "express";
