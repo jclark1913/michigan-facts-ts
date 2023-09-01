@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 Michigan Facts is a lightweight API for serving facts about the state of Michigan. Its primary purpose is to support a silly <a href="https://github.com/jclark1913/michigan-bot">discord bot</a> I built to educate/annoy my friends. I wrote Michigan Facts in Typescript using Express along with a database in PostgreSQL using Prisma, and as impressive as my Michigan trivia is I did lean on our friends at ChatGPT to help generate facts for the database.
 
