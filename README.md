@@ -182,7 +182,7 @@ Project Link: [https://github.com/jclark1913/michigan-facts-ts](https://github.c
 [Express]: https://img.shields.io/badge/Express-000000?logo=express&logoColor=white
 [Node.js]: https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white
 [React Router]: https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white
-[Vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
-[TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
-[Prisma]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
-[ChatGPT]: https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white
+[Vercel]: https://img.shields.io/badge/vercel-%23000000.svg?&logo=vercel&logoColor=white
+[TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?&logo=typescript&logoColor=white
+[Prisma]: https://img.shields.io/badge/Prisma-3982CE?&logo=Prisma&logoColor=white
+[ChatGPT]: https://img.shields.io/badge/chatGPT-74aa9c?&logo=openai&logoColor=white
